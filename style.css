@@ -4,13 +4,14 @@
 
 /*google fonts */
 @import 'https://fonts.googleapis.com/css?family=Lora';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'Lora', serif;
 }
 
 body {
-    width:100%;
+
 
 }
 
@@ -92,7 +93,7 @@ hr {
 }
 
 #button-style {
-    width:100%;
+    width:103%;
     text-decoration: none;
     margin:1vh 0vh 0vh;
     color: #9A9A9A;
@@ -100,8 +101,11 @@ hr {
     padding: 1vh;
     font-family:'Lora', serif;
     font-size:13px;
-    
+    outline: none;
+    border: none;
 }
+
+
 
 .right-triangle-logo {
     display: flex;
@@ -126,7 +130,10 @@ img {
 .main-footer {
     display: flex;
     justify-content:space-between;
-    margin:auto;
+    margin: 1vh 4vh 0vh;
+    font-family:'Open Sans', serif;
+    font-size: 13px;
+    color: #9A9A9A;
 }
 
 
